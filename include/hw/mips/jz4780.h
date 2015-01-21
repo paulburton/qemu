@@ -28,6 +28,7 @@
 
 #include "exec/hwaddr.h"
 
+extern DeviceState *jz4780_cgu_init(hwaddr base);
 extern DeviceState *jz4780_tcu_init(hwaddr base, qemu_irq irqs[static 3]);
 
 #endif /* hw_mips_jz4780_h */
